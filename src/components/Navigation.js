@@ -52,7 +52,7 @@ const Navigation = () => {
                     </li>
                     <li>
                         <a
-                            href="https://www.linkedin.com/in/gwen-gressier-b8a8a1177/"
+                            href="https://github.com/gwenaelgressier"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -61,20 +61,11 @@ const Navigation = () => {
                     </li>
                     <li>
                         <a
-                            href="https://www.linkedin.com/in/gwen-gressier-b8a8a1177/"
+                            href="https://twitter.com/_GwenDev_"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <i className="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.google.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <i className="fab fa-codepen"></i>
                         </a>
                     </li>
                 </ul>

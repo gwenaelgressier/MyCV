@@ -22,7 +22,11 @@ export default class Project extends Component {
                     ))}
                 </div>
                 <h3>{name}</h3>
-                <img src={picture} alt="" onClick={this.handleInfo} />
+                <img
+                    src={process.env.PUBLIC_URL + picture}
+                    alt=""
+                    onClick={this.handleInfo}
+                />
                 <span className="infos" onClick={this.handleInfo}>
                     <i className="fas fa-plus-circle"></i>
                 </span>
