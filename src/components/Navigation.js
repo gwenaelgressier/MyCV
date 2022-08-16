@@ -6,7 +6,7 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="id">
                 <div className="idContent">
-                    <img src="./media/gwen.jpg" alt="profil-pic" />
+                    <img src={require("../media/gwen.jpg")} alt="profil-pic" />
                     <h3>Gwenaël GRESSIER</h3>
                 </div>
             </div>
@@ -14,25 +14,25 @@ const Navigation = () => {
             <div className="navigation">
                 <ul>
                     <li>
-                        <NavLink to="/" activeClassName="navActive">
+                        <NavLink to="/">
                             <i className="fas fa-home"></i>
                             <span>Accueil</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/competences" activeClassName="navActive">
+                        <NavLink to="/competences">
                             <i className="fas fa-mountain"></i>
                             <span>Compétences</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/portefolio" activeClassName="navActive">
+                        <NavLink to="/portefolio">
                             <i className="fas fa-images"></i>
                             <span>Portefolio</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/contact" activeClassName="navActive">
+                        <NavLink to="/contact">
                             <i className="fas fa-address-book"></i>
                             <span>Contact</span>
                         </NavLink>
@@ -78,9 +78,6 @@ const Navigation = () => {
                         </a>
                     </li>
                 </ul>
-            </div>
-            <div className="signature">
-                <p> Gwen-2022 </p>
             </div>
         </div>
     );
