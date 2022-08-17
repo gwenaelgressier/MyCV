@@ -13,7 +13,7 @@ export default class Project extends Component {
 
     render() {
         let { name, languagesIcons, source, info, picture } = this.props.item;
-
+        console.log(typeof info.replace(/\n/g, "<br />"));
         return (
             <div className="project">
                 <div className="icons">
@@ -46,8 +46,9 @@ export default class Project extends Component {
                                     </a>
                                 </div>
                             </div>
-
-                            <p className="text">{info}</p>
+                            <p className="text">
+                                {info.replace(/\n/g, "<br />")}
+                            </p>
 
                             <div
                                 className="button return"

@@ -5,7 +5,7 @@ export const portfolioData = [
         languages: ["all", "html/css"],
         languagesIcons: ["fab fa-css3-alt"],
         source: "https://github.com/gwenaelgressier/GwenaelGressier_02_20022022",
-        info: "Transformez une maquette en site web avec HTML & CSS Competence aquise:Implémenter une interface responsive Intégrer du contenu conformément à une maquette",
+        info: "Transformez une maquette en site web avec HTML & CSS. Lors de se 1er projet j'ai aquis les competences suivante la fasson d'implémenter une interface responsive ainsi que l'intégration du contenu conformément à une maquette.",
         picture: "/media/project1.JPG",
     },
     {
@@ -14,7 +14,7 @@ export const portfolioData = [
         languages: ["all", "sass"],
         languagesIcons: ["fab fa-sass"],
         source: "https://github.com/gwenaelgressier/GwenaelGressier_03_22022022",
-        info: "Dynamisez une page web avec des animations CSS Competence aquise: Utiliser un système de gestion de versions pour le suivi du projet et son hébergement Mettre en œuvre des effets CSS graphiques avancés Mettre en place son environnement Front-End Mettre en place une structure de navigation pour un site web Assurer la cohérence graphique d'un site web ",
+        info: `Dynamisez une page web avec des animations CSS. Lors de se 2nd projet j'ai aquis les competences suivante l'utilisation d'un système de gestion de versions pour le suivi du projet et son hébergement ,la mise en œuvre des effets CSS graphiques avancés ,la mise en place son environnement Front-End ,ainsi que mettre en place une structure de navigation pour un site web et enfain s'assurer de la cohérence graphique d'un site web `,
         picture: "/media/project2.JPG",
     },
     {
@@ -23,7 +23,7 @@ export const portfolioData = [
         languages: ["all", "html/css"],
         languagesIcons: ["fab fa-css3-alt"],
         source: "https://github.com/gwenaelgressier/GwenaelGressier_04_28022022",
-        info: "Optimisez un site web existant Optimiser le référencement d'un site web Competence aquise: Écrire un code HTML et CSS maintenable Réaliser une recherche des bonnes pratiques en développement web Optimiser la taille et la vitesse d’un site web Assurer l'accessibilité d'un site web",
+        info: "Optimisez un site web existant Optimiser le référencement d'un site web. Lors de se 3em projet j'ai aquis les competences suivante Écrire un code HTML et CSS maintenable ,Réaliser une recherche des bonnes pratiques en développement web ,Optimiser la taille et la vitesse d’un site web,ainsi que d'assurer l'accessibilité d'un site web",
         picture: "/media/project3.JPG",
     },
     {
@@ -32,7 +32,7 @@ export const portfolioData = [
         languages: ["all", "javascript"],
         languagesIcons: ["fab fa-js"],
         source: "https://github.com/gwenaelgressier/GwenaelGressier_05_04042022",
-        info: "Construisez un site e-commerce en JavaScript Competence aquise: Interagir avec un web service avec JavaScript Valider des données issues de sources externes Créer un plan de test pour une application Gérer des événements JavaScript",
+        info: "Construisez un site e-commerce en JavaScript. Pour se 4em projet j'ai aquis les competences suivante Interagir avec un web service avec JavaScript ,Valider des données issues de sources externes ,Créer un plan de test pour une application ,Gérer des événements JavaScript",
         picture: "/media/project4.JPG",
     },
     {
@@ -41,7 +41,7 @@ export const portfolioData = [
         languages: ["all", "javascript", "mongoDB"],
         languagesIcons: ["fab fa-js", "fab fa-envira"],
         source: "https://github.com/gwenaelgressier/gwenaelgressier-GwenaelGressier_06_02052022",
-        info: "Construisez une API sécurisée pour une application d'avis gastronomiques Competence aquise: Implémenter un modèle logique de données conformément à la réglementation Stocker des données de manière sécurisée Mettre en œuvre des opérations CRUD de manière sécurisée",
+        info: "Construisez une API sécurisée pour une application d'avis gastronomiques.lors de ce 5em projet les competence aquise on etais Implémenter un modèle logique de données conformément à la réglementation, stocker des données de manière sécurisée et mettre en œuvre des opérations CRUD de manière sécurisée",
         picture: "/media/project5.JPG",
     },
     {
@@ -55,7 +55,7 @@ export const portfolioData = [
             "fab fa-sass",
         ],
         source: "https://github.com/gwenaelgressier/GwenaelGressier_07_160622",
-        info: "Créez un réseau social d’entreprise Competence aquise: Développer l’interface d’un site web grâce à un framework front-end Authentifier un utilisateur et maintenir sa session Implémenter un stockage de données sécurisé en utilisant une base de données",
+        info: "Créez un réseau social d’entreprise; pour mon projet de fin d'etudesj'ai appris à Développer l’interface d’un site web grâce à un framework front-end (React), authentifier un utilisateur et maintenir sa session, implémenter un stockage de données sécurisé en utilisant une base de données",
         picture: "/media/project6.JPG",
     },
     {
@@ -64,7 +64,7 @@ export const portfolioData = [
         languages: ["all", "javascript", "react", "sass"],
         languagesIcons: ["all", "fab fa-js", "fab fa-react", "fab fa-sass"],
         source: "https://github.com/gwenaelgressier/MyCV",
-        info: "Le site sur le quelle vous etes actuellement ",
+        info: "Portfolio sur le quel vous etes actuellement",
         picture: "/media/cv.JPG",
     },
 ];

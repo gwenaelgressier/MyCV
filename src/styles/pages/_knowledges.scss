@@ -17,8 +17,7 @@
       padding: .8rem;
     }
     h3 {
-      font-size: 1.4rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       font-family: $font-2;
       color: $white;
       text-transform: uppercase;
@@ -107,35 +106,20 @@
     .experience {
       grid-area: E;
       margin: 0 0 .5rem .5rem;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 10% 1fr 1fr;
-      grid-template-areas: 
-        "1"
-        "2"
-        "3";
       
-      h3 {
-        grid-area: 1;
-      }
       h4 {
-        font-size: 1.1rem;
         color: $color-16;
       }
       h5 {
         color: $color-17;
-        padding: 0.5rem 0 0.5rem 1rem;
+        padding: 0.2rem 0 0.2rem 1rem;
       }
       p {
-        text-align: justify;
         padding: 0 1rem;
         color:$white
       }
-      .exp-1 {
-        grid-area: 2;
-      }
-      .exp-2 {
-        grid-area: 3;
+      .formationH3{
+        margin-top:0.5rem;
       }
     }
     .otherSkills {
@@ -185,11 +169,8 @@
     }
   }
 }
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1120px){
   .knowledgesContent {
-    h3 {
-      font-size: 1.2rem !important;
-    }
     .languagesList {
       padding-top: .2rem !important;
     }
@@ -201,7 +182,7 @@
     }
   }
 }
-@media screen and (max-width: 850px){
+@media screen and (max-width: 925px){
   .knowledgesContent {
     h4 {
       font-size: .9rem !important;
@@ -212,7 +193,7 @@
     }
   }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 580px){
   .knowledgesContent {
     display: grid !important;
     grid-template-columns: 1fr !important;
@@ -233,5 +214,15 @@
       grid-area: 4 !important;
       margin-top: .5rem !important;
     }
+    .languagesFrameworks {
+      .years {
+       span {
+                 &:nth-child(2):before,
+                &:nth-child(3):before {
+                  height: 92px !important;
+                }
+       }
+      }
+      }
   }
 }

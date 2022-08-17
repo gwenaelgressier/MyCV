@@ -142,7 +142,6 @@
       transition: .2s;
 
       &:hover {
-        transform: scale(1.1);
         color: $color-16;
 
       }
@@ -200,7 +199,7 @@
         }
       }
       .text {
-        text-align: justify;
+       // text-align: justify;
         padding-bottom: 1rem;
       }
       .return {
@@ -239,5 +238,11 @@
         height: 100% !important;
       }
     }
+    .projects{
+      .showInfos{ 
+        .infosContent{
+        width: 350px;
+      }
+    }
   }
-}
+}}
