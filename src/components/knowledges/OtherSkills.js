@@ -22,8 +22,6 @@ const Otherskills = () => {
                         <i className="fas fa-check-square"></i>
                         <span> Méthodes agiles</span>
                     </li>
-                </ul>
-                <ul>
                     <li>
                         <i className="fas fa-check-square"></i>
                         <span> AdobeXD</span>

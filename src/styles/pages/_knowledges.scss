@@ -109,6 +109,7 @@
       
       h4 {
         color: $color-16;
+        margin-top:0.3rem;
       }
       h5 {
         color: $color-17;
@@ -119,18 +120,18 @@
         color:$white
       }
       .formationH3{
-        margin-top:0.5rem;
+        margin-top:1.2rem;
       }
     }
     .otherSkills {
       grid-area: O;
       margin-right: 0.5rem;
+      padding-left: 1.5rem;
 
       .list {
         display: flex;
         width: 80%;
         height: 100%;
-        margin: 0 auto;
         justify-content: space-between;
 
         ul {
@@ -169,7 +170,7 @@
     }
   }
 }
-@media screen and (max-width: 1120px){
+@media screen and (max-width: 1165px){
   .knowledgesContent {
     .languagesList {
       padding-top: .2rem !important;
@@ -193,7 +194,7 @@
     }
   }
 }
-@media screen and (max-width: 580px){
+@media screen and (max-width: 595px){
   .knowledgesContent {
     display: grid !important;
     grid-template-columns: 1fr !important;

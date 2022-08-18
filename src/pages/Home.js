@@ -11,7 +11,7 @@ const Home = () => {
                     <h2>Développeur Web</h2>
                     <div className="pdf">
                         <a
-                            href={process.env.PUBLIC_URL + "/media/CV.pdf"}
+                            href={process.env.PUBLIC_URL + "/media/cv.pdf"}
                             target="_blank"
                             rel="noopener noreferrer"
                         >

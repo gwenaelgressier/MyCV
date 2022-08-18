@@ -7,7 +7,7 @@ const ProgressBar = (props) => {
             <div className="years">
                 <span>Experience</span>
                 <span>6 mois</span>
-                <span>1 ans</span>
+                <span>1 an</span>
             </div>
             <div>
                 {props.languages.map((item) => {

@@ -19,7 +19,7 @@ const hobbies = () => {
                 </li>
                 <li className="hobby">
                     <i className="fa-solid fa-gamepad"></i>
-                    <span>Jeux vidéo</span>
+                    <span>Jeux vidéos</span>
                 </li>
             </ul>
         </div>
