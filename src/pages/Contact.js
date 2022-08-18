@@ -47,7 +47,7 @@ const Contact = () => {
                 <div className="socialNetwork">
                     <ul>
                         <a
-                            href="https://www.linkedin.com/in/gwen-gressier-b8a8a1177/"
+                            href="https://fr.linkedin.com/in/gwena%C3%ABl-gressier-375692232"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
