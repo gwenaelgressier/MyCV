@@ -1,5 +1,5 @@
 .contactContent {
-  background: $color-15;
+  background: $color-4;
   border-radius: $borderRadius;
   width: 100%;
   overflow: hidden;
@@ -15,7 +15,7 @@
     grid-area: 1;
     width: 100%;
     position: relative;
-    background: $color-14;
+    background: $color-3;
     height: 340px;
 
     &:before {
@@ -38,7 +38,7 @@
   }
   .contactBox {
     grid-area: 2;
-    background: $color-13;
+    background: $color-2;
     margin: 0 auto;
     padding: 1rem 3rem;
     z-index: 2;
@@ -52,13 +52,13 @@
       text-align: center;
       margin-top: 0.3rem;
       position: relative;
-      color: $color-16;
+      color: $color-5;
 
       &:after {
         content: '';
         height: 1px;
         width: 50%;
-        background: $color-17;
+        background: $color-6;
         position: absolute;
         bottom: -25px;
         left: 50%;
@@ -79,7 +79,7 @@
         font-size: 1.4rem;
         position: absolute;
         transform: translateY(2px);
-        color: $color-16;
+        color: $color-5;
       }
       span {
         font-size: 1.4rem;
@@ -111,7 +111,7 @@
       a {
         width: 20%;
         font-size: 1.2rem;
-        background: $color-13;
+        background: $color-2;
         border-radius: $borderRadius;
         display: inline-block;
         padding: 0.7rem 0;
@@ -123,9 +123,8 @@
         color:$white;
 
         &:hover {
-          //background: $color-4;
           i{
-            color: $color-16;
+            color: $color-5;
           }
         }
 

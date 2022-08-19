@@ -4,21 +4,16 @@ $font-1: "Roboto", "sans-serif";
 $font-2: 'Dosis', sans-serif;
 $font-3: 'Josefin Sans', serif;
 
-$color-1: #2a1d52;
-$color-2: #6C77F4;
-$color-3: rgb(99, 164, 233);
-$color-4: #4FEDD2;
-$color-5: #36D0EA;
+
+
+$color-1: rgb(18, 18, 18);
+$color-2: rgb(34, 34, 34);
+$color-3: rgb(32, 32, 32);
+$color-4: rgb(27, 27, 27);
+$color-5: rgb(255, 145, 23);
+$color-6: rgb(204, 204, 204);
 $white: #ddd;
 $black: #333;
-
-$color-11: rgb(18, 18, 18);
-$color-12: rgb(26, 26, 26);
-$color-13: rgb(34, 34, 34);
-$color-14: rgb(32, 32, 32);
-$color-15: rgb(27, 27, 27);
-$color-16: rgb(255, 145, 23);
-$color-17: rgb(204, 204, 204);
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
@@ -40,7 +35,7 @@ body {
   max-width: 1200px;
   font-family: $font-1;
   color: $black;
-  background-color: $color-11;
+  background-color: $color-1;
 }
 button {
   cursor: pointer;

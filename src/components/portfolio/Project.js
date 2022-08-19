@@ -13,7 +13,6 @@ export default class Project extends Component {
 
     render() {
         let { name, languagesIcons, source, info, picture } = this.props.item;
-        console.log(typeof info.replace(/\n/g, "<br />"));
         return (
             <div className="project">
                 <div className="icons">

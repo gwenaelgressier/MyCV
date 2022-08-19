@@ -17,7 +17,7 @@
     width: 100%;
     padding: 1rem 2rem;
     margin: 0 auto;
-    background: $color-15;
+    background: $color-4;
     user-select: none;
 
     li {
@@ -57,10 +57,10 @@
           border-radius: 50%;
           cursor: pointer;
           transition: 0.3s;
-          background: $color-16;
+          background: $color-5;
           transform: scale(0);
           transform-origin: center;
-          border: 1px solid $color-16;
+          border: 1px solid $color-5;
 
         }
       }
@@ -70,7 +70,7 @@
         left: -6px;
       }
       input:checked + label {
-        color: $color-16;
+        color: $color-5;
       }
       label {
         cursor: pointer;
@@ -84,7 +84,7 @@
     justify-content: space-around;
 
     .project {
-      background: $color-15;
+      background: $color-4;
       border-radius: $borderRadius;
       margin: 0.5rem 0 0 0;
       text-align: center;
@@ -109,8 +109,7 @@
       i {
         font-size: 1.4rem;
         padding: 0 .35rem;
-        color: $color-17;
-        text-shadow: 0 0px 1px $color-1;
+        color: $color-6;
       }
     }
     h3 {
@@ -142,7 +141,7 @@
       transition: .2s;
 
       &:hover {
-        color: $color-16;
+        color: $color-5;
 
       }
     }
@@ -162,7 +161,7 @@
         width: 600px;
         margin: 0 auto;
         color: $white;
-        background: $color-15;
+        background: $color-4;
         border-radius: $borderRadius;
         padding: 2rem;
         box-shadow: 0 10px 10px #333;
@@ -184,18 +183,18 @@
       h2 {
         text-align: left;
         margin-bottom: 1rem;
-        color:$color-16
+        color:$color-5
       }
       .button {
         cursor: pointer;
         color: $white;
-        background: $color-14;
+        background: $color-3;
         border-radius: $borderRadius;
         padding: 1rem;
         transition: .2s;
 
         &:hover {
-          color: $color-16;
+          color: $color-5;
         }
       }
       .text {

@@ -1,5 +1,5 @@
 .sidebar {
-  background: $color-15;
+  background: $color-4;
   font-family: $font-1;
   height: 100%;
   min-height: $minHeight;
@@ -28,7 +28,7 @@
 
       img {
         border-radius: 50%;
-        box-shadow: 0 0 0 4px $color-13, 0 0 0 8px $color-15, 0 0 0 12px $color-11;
+        box-shadow: 0 0 0 4px $color-2, 0 0 0 8px $color-4, 0 0 0 12px $color-1;
       }
       h3 {
         font-size: 1.3rem;
@@ -59,7 +59,7 @@
         color: $white;
         }
         .active {
-          color: $color-16;
+          color: $color-5;
         }
 
         i {
@@ -95,7 +95,7 @@
           color: $white;
         }
         a:hover {
-          color: $color-16;
+          color: $color-5;
         }
 
         &:nth-child(1){
